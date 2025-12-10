@@ -49,7 +49,8 @@
           "dates": "October 2025 - Present",
           "bullets": [
             "Leading technical strategy for a pre-seed startup valued at $10M backed by Village Global, Jeff Dean, and Nvidia's Inception",
-            "Spearheaded strategic partnerships and integrations with NVIDIA, Google, AWS, and Azure to validate technical assumptions and accelerate product adoption"
+            "Spearheaded strategic partnerships and integrations with NVIDIA, Google, AWS, and Azure to validate technical assumptions and accelerate product adoption",
+            "Secured multiple 5-figure contracts with Fortune 500 companies including Mutual of Omaha and MetLife by leading SOC2, GDPR, and ISO compliance initiatives to meet enterprise security standards"
           ]
         },
         {
@@ -91,6 +92,20 @@
           "bullets": [
             "Spearheaded Java Spring microservice for critical task automation, saving 10s of monthly labor hours",
             "Reduced tech debt by 30% across team projects through legacy code refactoring, improving development velocity and lowering maintenance costs"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "University of Texas at Dallas",
+      "location": "Richardson, TX",
+      "roles": [
+        {
+          "title": "Teaching Assistant - Discrete Mathematics",
+          "dates": "August 2024 - December 2024",
+          "bullets": [
+            "Mentored 40+ students in discrete mathematics concepts including logic, set theory, and graph theory, facilitating a deeper understanding of computer science and algorithm fundamentals",
+            "Collaborated with faculty to grade assignments and exams, providing detailed feedback to support student learning and academic success"
           ]
         }
       ]
