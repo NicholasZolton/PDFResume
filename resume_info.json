@@ -1,186 +1,308 @@
 {
-  "name": "Nicholas Zolton",
-  "contact": {
-    "phone": "281-913-9227",
-    "email": "nicholaszolton@gmail.com",
-    "website": "https://nicholaszolton.dev/",
-    "github": "https://github.com/NicholasZolton"
-  },
-  "education": [
-    {
-      "institution": "University of Texas at Dallas",
-      "degree": "Bachelor of Science in Computer Science",
-      "graduation_date": "December 2024",
-      "gpa": "4.0"
-    }
-  ],
-  "skills": {
-    "languages": [
-      "Java",
-      "C#",
-      "C++",
-      "C",
-      "Python",
-      "JavaScript",
-      "TypeScript",
-      "HTML",
-      "CSS"
+    "name": "Nicholas Zolton",
+    "contact": {
+        "phone": "281-913-9227",
+        "email": "nicholaszolton@gmail.com",
+        "website": "https://nicholaszolton.dev/",
+        "github": "https://github.com/NicholasZolton"
+    },
+    "education": [
+        {
+            "institution": "University of Texas at Dallas",
+            "degree": "Bachelor of Science in Computer Science",
+            "graduation_date": "December 2024",
+            "gpa": "4.0"
+        }
     ],
-    "tools_frameworks": [
-      "React",
-      "React Native",
-      "NodeJS",
-      "Spring",
-      "Docker",
-      "Kubernetes",
-      "FastAPI",
-      "Flask",
-      "Svelte"
+    "skills": {
+        "languages": [
+            "Java",
+            "C#",
+            "C++",
+            "C",
+            "Python",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "R"
+        ],
+        "tools_frameworks": [
+            "React",
+            "React Native",
+            "NodeJS",
+            "Spring",
+            "Docker",
+            "Kubernetes",
+            "FastAPI",
+            "Flask",
+            "Svelte",
+            "Triton",
+            "WebRTC",
+            "Airflow",
+            "BigQuery",
+            "Twilio",
+            "Virtual Audio Devices",
+            "Spacy",
+            "TopicRank"
+        ],
+        "ai_ml": [
+            "NVIDIA Inference",
+            "LLM Inference Optimization",
+            "Distributed AI Systems",
+            "Agentic AI Solutions",
+            "Model Context Protocol (MCP)",
+            "Knowledge Retrieval",
+            "Computer Vision (YOLOv5, TensorRT, OpenVINO)",
+            "Generative AI Infrastructure",
+            "Voice AI Agents",
+            "Subagent Systems",
+            "Proactive AI Automation",
+            "Natural Language Processing (NLP)",
+            "Topic Modeling (Spacy, TopicRank)",
+            "Graph Theory (DAGs, Topological Sorts)",
+            "OpenAI API",
+            "Schedule Optimization",
+            "Speech Recognition and Transcription",
+            "Semantic Search",
+            "Drug Interaction Detection",
+            "Regression Analysis",
+            "Statistical Modeling",
+            "Real Estate Price Prediction"
+        ],
+        "leadership": [
+            "Team Management",
+            "Event Planning and Organization",
+            "Strategic Partnerships",
+            "Technical Leadership",
+            "Mentoring and Teaching",
+            "Cross-functional Collaboration"
+        ],
+        "domains": [
+            "Healthcare Technology",
+            "Medical Record Management",
+            "Medication Management",
+            "Real Estate Analysis",
+            "Property Valuation",
+            "Environmental Sustainability",
+            "Carbon Footprint Reduction"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Happyverse",
+            "location": "San Francisco, CA",
+            "context": "Rapid promotion from Founding Engineer to CTO occurred because I became invaluable to the team, acting as the former CTO's right hand. When they left, I was the natural successor due to my deep familiarity with all services and team workflows. Team grew to 22 people at its peak, where I managed roughly 12 engineers. Built state-of-the-art inference infrastructure for generative AI. Pivoted from B2C product (thousands of users, conversations in >158 countries) to enterprise B2B solutions after struggling to find PMF. Organized and ran AGI Interface Summit, previewing technology to 80 people in San Francisco.",
+            "roles": [
+                {
+                    "title": "Chief Technology Officer",
+                    "dates": "October 2025 - Present",
+                    "bullets": [
+                        "Leading technical strategy for a pre-seed startup valued at $10M backed by Village Global, Jeff Dean, and Nvidia's Inception",
+                        "Spearheaded strategic partnerships and integrations with NVIDIA, Google, AWS, and Azure to validate technical assumptions and accelerate product adoption",
+                        "Secured multiple 5-figure enterprise contracts by leading end-to-end customer evaluations spanning technical discovery, solution design, and enterprise security requirements",
+                        "Managed 12-engineer team through B2C to B2B pivot, overseeing engineering processes, code quality, and delivery timelines"
+                    ]
+                },
+                {
+                    "title": "Head of Engineering",
+                    "dates": "September 2025 - October 2025",
+                    "bullets": [
+                        "Implemented agentic solutions including knowledge retrieval, MCP integration, and interactive screen features, resulting in a significant increase in pilot user engagement and retention",
+                        "Reduced GPU inference costs by 75% without affecting broader performance by optimizing model infrastructure and enabling distributed, parallelizable inferencing solutions",
+                        "Organized and executed AGI Interface Summit in San Francisco, previewing technology to 80 industry professionals and gathering critical feedback"
+                    ]
+                },
+                {
+                    "title": "Founding Software Engineer",
+                    "dates": "June 2025 - August 2025",
+                    "bullets": [
+                        "Architected distributed, real-time video-conferencing AI systems using WebRTC and Triton; rapidly grew product to 1,000+ users with hundreds of AI conversations weekly",
+                        "Built a B2B web-app for tailoring real-time AI experiences, owning the React/TypeScript frontend, backend/infra, and Kubernetes orchestration",
+                        "Delivered AI conversations in >158 countries globally, demonstrating international scalability and infrastructure resilience"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Walmart Global Tech",
+            "location": "Bentonville, AR",
+            "roles": [
+                {
+                    "title": "Software Engineer",
+                    "team": "Global Workforce Management Analytics Team",
+                    "dates": "February 2025 - June 2025",
+                    "bullets": [
+                        "Integrated Walmart Canada into analytics platform, eliminating multi-million-dollar third-party costs",
+                        "Built data pipelines with Airflow/BigQuery and improved frontend performance for a web app serving 60k daily users",
+                        "Developed and deployed critical infrastructure components using Java Spring for the Global Workforce Management Demand team, directly facilitating the automatic scheduling of 2.3 million associates worldwide"
+                    ]
+                },
+                {
+                    "title": "Software Engineering Intern",
+                    "team": "Global Workforce Management Demand Team",
+                    "dates": "June 2024 - August 2024",
+                    "bullets": [
+                        "Spearheaded Java Spring microservice for critical task automation, saving 10s of monthly labor hours",
+                        "Reduced tech debt by 30% across team projects through legacy code refactoring, improving development velocity and lowering maintenance costs"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "University of Texas at Dallas",
+            "location": "Richardson, TX",
+            "roles": [
+                {
+                    "title": "Teaching Assistant - Discrete Mathematics",
+                    "dates": "August 2024 - December 2024",
+                    "bullets": [
+                        "Mentored 40+ students in discrete mathematics concepts including logic, set theory, and graph theory, facilitating a deeper understanding of computer science and algorithm fundamentals",
+                        "Collaborated with faculty to grade assignments and exams, providing detailed feedback to support student learning and academic success"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "BenefitMall",
+            "location": "Richardson, TX",
+            "roles": [
+                {
+                    "title": "Software Development Intern",
+                    "dates": "November 2022 – May 2023",
+                    "bullets": [
+                        "Optimized C# and SQL stored procedures for W-2 services, reducing report generation time by up to 50%"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Brains4Drones",
+            "location": "Dallas, TX",
+            "roles": [
+                {
+                    "title": "Software Engineering Intern",
+                    "dates": "December 2021 - August 2022",
+                    "bullets": [
+                        "Pioneered use of OpenVINO, YoloV5, and TensorRT to increase vision-inferencing AI performance by 400%+ across all products",
+                        "Managed two vital projects and developed 5,000+ lines of production code, decreasing reliance on shortage-ridden hardware by 50%"
+                    ]
+                }
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "MedMate - Healthcare Assistant App",
+            "hackathon": "Axxess 2023 (Overall 1st Place)",
+            "tech_stack": "React Native, Python, Flask",
+            "date": "April 2023",
+            "bullets": [
+                "Built a comprehensive healthcare mobile app that records and transcribes notes from doctor visits in 30+ languages, automatically converting conversations to the user's native language",
+                "Implemented semantic search functionality for medications with intelligent warnings about potential drug interactions, helping users avoid dangerous medication combinations",
+                "Created medication tracking system enabling users with complex medication regimens to monitor and manage their medications more effectively",
+                "Developed full mobile application with React Native frontend and Python Flask backend, addressing healthcare accessibility and medication management challenges"
+            ]
+        },
+        {
+            "name": "SiteInSight - Property Value Estimation",
+            "hackathon": "WEHack 2023 (2nd Place Machine Learning)",
+            "tech_stack": "Svelte, R",
+            "date": "February 2023",
+            "bullets": [
+                "Built a web application using machine learning to estimate property values throughout Dallas based on multiple variables including zipcode, bedroom count, bathroom count, and square footage",
+                "Implemented an intelligent deal-finding system that identifies undervalued properties where users could make a profit from purchasing",
+                "Developed web frontend with Svelte and machine learning backend with R, demonstrating proficiency across multiple programming language ecosystems",
+                "Applied regression and statistical modeling techniques to real estate data, delivering actionable insights for property investment decisions"
+            ]
+        },
+        {
+            "name": "Carbon-Optimized Daily Scheduler",
+            "hackathon": "HackRICE 13 (2nd Place Environmental Hack)",
+            "tech_stack": "React Native, Python, FastAPI, OpenAI",
+            "date": "September 2023",
+            "team_size": "4 people",
+            "timeline": "36 hours",
+            "bullets": [
+                "Built a mobile app that analyzes user's daily habits and optimizes schedules to reduce CO2 emissions using AI",
+                "Implemented an agent-based system that takes user schedules and returns optimized plans recommending high-energy activities during times of peak renewable energy generation and avoiding driving during high-traffic periods",
+                "Created a gamified leaderboard system showing users who achieved the greatest emissions reductions, promoting engagement and competition",
+                "Developed full mobile application with React Native frontend and Python FastAPI backend, delivering an end-to-end environmental impact tool"
+            ]
+        },
+        {
+            "name": "Redwood - Intelligent PDF Learning Assistant",
+            "hackathon": "HackPrinceton 2023 (Finalist)",
+            "tech_stack": "Python, Spacy, TopicRank, Directed Acyclic Graphs (DAG), Topological Sorts",
+            "date": "November 2023",
+            "team_size": "4 people",
+            "timeline": "36 hours",
+            "bullets": [
+                "Built a webapp that uses NLP (Spacy, TopicRank) to analyze topic relationships across pages of large PDFs such as textbooks",
+                "Created a directed acyclic graph (DAG) representing concept dependencies, enabling users to learn specific topics without reading irrelevant content",
+                "Implemented topological sorting algorithms to generate foundational learning paths, building understanding from ground up rather than arbitrary page order",
+                "Delivered a comprehensive reimagining of how people understand and learn concepts from educational materials, going beyond traditional chatbot approaches",
+                "Recognized by judges for entirely novel application of NLP and graph theory to personalized education"
+            ]
+        },
+        {
+            "name": "Amelia - AI Voice Assistant for Car Maintenance",
+            "hackathon": "HackUTA 2023 (Overall 2nd Place)",
+            "tech_stack": "Python, Google Voice Web Interface, Virtual Audio Devices, Agentic AI",
+            "date": "October 2023",
+            "team_size": "4 people",
+            "timeline": "48 hours",
+            "bullets": [
+                "Built one of the first truly generative AI voice agents before modern tools like Pipecat existed, pioneering agentic voice technology",
+                "Developed custom telephone integration using virtual audio devices with Google Voice's web interface, as Twilio lacked voice AI integrations at the time",
+                "Created subagent system to analyze car maintenance needs and proactively text users when preventative maintenance was required, then called users to explain and assist",
+                "Achieved unprecedented accessibility by making the system work from any phone device, including payphones - a rare feat for AI at the time",
+                "Recognized by judges for meeting users where they are at with highly accessible technology that required no smartphone or app"
+            ]
+        },
+        {
+            "name": "Sparrow Link",
+            "tech_stack": "FastAPI, Postgres, React, Typescript",
+            "date": "December 2024",
+            "bullets": [
+                "1st place Engineering Capstone project at The University of Texas at Dallas",
+                "Developed a remote research platform for Spark Biomedical, accelerating clinical trials and data collection for their neuro-stimulation device, and enabling secure remote access to medical technology"
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "title": "1st Place Gemini x Pipecat ($100,000 prize)",
+            "date": "October 2025"
+        },
+        {
+            "title": "1st Place Engineering Capstone Project at UTD",
+            "date": "Dec 2024"
+        },
+        {
+            "title": "Google Developer Student Club President (2023 - 2024)",
+            "date": "2023 - 2024",
+            "description": "Organized numerous events and workshops including AI workshops, grew membership by 20%, led special initiatives such as Q&A with GitHub co-founder Chris Wanstrath and recruiting workshops with Sigma, and connected with local companies to expand club opportunities"
+        },
+        {
+            "title": "HackPrinceton 2023 Finalist (Redwood - Intelligent PDF Learning Assistant)",
+            "date": "Nov 2023"
+        },
+        {
+            "title": "HackRICE 13 2nd Place Environmental Hack (Carbon-Optimized Daily Scheduler)",
+            "date": "Sept 2023"
+        },
+        {
+            "title": "Axxess 2023 Overall 1st Place (MedMate - Healthcare Assistant)",
+            "date": "Apr 2023"
+        },
+        {
+            "title": "HackUTA 2023 Overall 2nd Place (Amelia - AI Voice Assistant)",
+            "date": "Oct 2023"
+        },
+        {
+            "title": "WEHack 2023 2nd Place Machine Learning (SiteInSight - Property Value Estimation)",
+            "date": "Feb 2023"
+        }
     ]
-  },
-  "experience": [
-    {
-      "company": "Happyverse",
-      "location": "San Francisco, CA",
-      "context": "Rapid promotion from Founding Engineer to CTO occurred because I became invaluable to the team, acting as the former CTO's right hand. When they left, I was the natural successor due to my deep familiarity with all services and team workflows.",
-      "roles": [
-        {
-          "title": "Chief Technology Officer",
-          "dates": "October 2025 - Present",
-          "bullets": [
-            "Leading technical strategy for a pre-seed startup valued at $10M backed by Village Global, Jeff Dean, and Nvidia's Inception",
-            "Spearheaded strategic partnerships and integrations with NVIDIA, Google, AWS, and Azure to validate technical assumptions and accelerate product adoption",
-            "Secured multiple 5-figure enterprise contracts by leading end-to-end customer evaluations spanning technical discovery, solution design, and enterprise security requirements"
-          ]
-        },
-        {
-          "title": "Head of Engineering",
-          "dates": "September 2025 - October 2025",
-          "bullets": [
-            "Implemented agentic solutions including knowledge retrieval, MCP integration, and interactive screen features, resulting in a significant increase in pilot user engagement and retention",
-            "Reduced GPU inference costs by 75% without affecting broader performance by optimizing model infrastructure and enabling distributed, parallelizable inferencing solutions"
-          ]
-        },
-        {
-          "title": "Founding Software Engineer",
-          "dates": "June 2025 - August 2025",
-          "bullets": [
-            "Architected distributed, real-time video-conferencing AI systems using WebRTC and Triton; rapidly grew product to 1,000+ users with hundreds of AI conversations weekly",
-            "Built a B2B web-app for tailoring real-time AI experiences, owning the React/TypeScript frontend, backend/infra, and Kubernetes orchestration"
-          ]
-        }
-      ]
-    },
-    {
-      "company": "Walmart Global Tech",
-      "location": "Bentonville, AR",
-      "roles": [
-        {
-          "title": "Software Engineer",
-          "team": "Global Workforce Management Analytics Team",
-          "dates": "February 2025 - June 2025",
-          "bullets": [
-            "Integrated Walmart Canada into analytics platform, eliminating multi-million-dollar third-party costs",
-            "Built data pipelines with Airflow/BigQuery and improved frontend performance for a web app serving 60k daily users",
-            "Developed and deployed critical infrastructure components using Java Spring for the Global Workforce Management Demand team, directly facilitating the automatic scheduling of 2.3 million associates worldwide"
-          ]
-        },
-        {
-          "title": "Software Engineering Intern",
-          "team": "Global Workforce Management Demand Team",
-          "dates": "June 2024 - August 2024",
-          "bullets": [
-            "Spearheaded Java Spring microservice for critical task automation, saving 10s of monthly labor hours",
-            "Reduced tech debt by 30% across team projects through legacy code refactoring, improving development velocity and lowering maintenance costs"
-          ]
-        }
-      ]
-    },
-    {
-      "company": "University of Texas at Dallas",
-      "location": "Richardson, TX",
-      "roles": [
-        {
-          "title": "Teaching Assistant - Discrete Mathematics",
-          "dates": "August 2024 - December 2024",
-          "bullets": [
-            "Mentored 40+ students in discrete mathematics concepts including logic, set theory, and graph theory, facilitating a deeper understanding of computer science and algorithm fundamentals",
-            "Collaborated with faculty to grade assignments and exams, providing detailed feedback to support student learning and academic success"
-          ]
-        }
-      ]
-    },
-    {
-      "company": "BenefitMall",
-      "location": "Richardson, TX",
-      "roles": [
-        {
-          "title": "Software Development Intern",
-          "dates": "November 2022 – May 2023",
-          "bullets": [
-            "Optimized C# and SQL stored procedures for W-2 services, reducing report generation time by up to 50%"
-          ]
-        }
-      ]
-    },
-    {
-      "company": "Brains4Drones",
-      "location": "Dallas, TX",
-      "roles": [
-        {
-          "title": "Software Engineering Intern",
-          "dates": "December 2021 - August 2022",
-          "bullets": [
-            "Pioneered use of OpenVINO, YoloV5, and TensorRT to increase vision-inferencing AI performance by 400%+ across all products",
-            "Managed two vital projects and developed 5,000+ lines of production code, decreasing reliance on shortage-ridden hardware by 50%"
-          ]
-        }
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Sparrow Link",
-      "tech_stack": "FastAPI, Postgres, React, Typescript",
-      "date": "December 2024",
-      "bullets": [
-        "1st place Engineering Capstone project at The University of Texas at Dallas",
-        "Developed a remote research platform for Spark Biomedical, accelerating clinical trials and data collection for their neuro-stimulation device, and enabling secure remote access to medical technology"
-      ]
-    }
-  ],
-  "achievements": [
-    {
-      "title": "1st Place Gemini x Pipecat ($100,000 prize)",
-      "date": "October 2025"
-    },
-    {
-      "title": "1st Place Engineering Capstone Project at UTD",
-      "date": "Dec 2024"
-    },
-    {
-      "title": "Google Developer Student Club President",
-      "date": "2023 - 2024"
-    },
-    {
-      "title": "HackPrinceton 2023 Finalist",
-      "date": "Nov 2023"
-    },
-    {
-      "title": "HackRICE 13 2nd Place Environmental Hack",
-      "date": "Sept 2023"
-    },
-    {
-      "title": "Axxess 2023 Overall 1st Place",
-      "date": "Apr 2023"
-    },
-    {
-      "title": "HackUTA 2023 Overall 2nd Place",
-      "date": "Oct 2023"
-    },
-    {
-      "title": "WEHack 2023 2nd Place Machine Learning",
-      "date": "Feb 2023"
-    }
-  ]
 }
