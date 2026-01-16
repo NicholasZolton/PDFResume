@@ -4,5 +4,15 @@
         "bash": {
             "typst *": "allow"
         }
+    },
+    "lsp": {
+        "tinymist": {
+            "command": [
+                "tinymist"
+            ],
+            "extensions": [
+                ".typ"
+            ]
+        }
     }
 }
