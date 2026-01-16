@@ -11,3 +11,8 @@ typst watch $(find . -maxdepth 1 -name "*.typ" -print -quit) $(find . -maxdepth 
 run = '''
 typst compile $(find . -maxdepth 1 -name "*.typ" -print -quit) $(find . -maxdepth 1 -name "*.typ" -print -quit | sed "s/\.typ$/.pdf/")
 '''
+
+[tasks.lsp]
+run = '''
+tinymist
+'''
