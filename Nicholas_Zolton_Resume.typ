@@ -188,6 +188,7 @@
 		bullets: (
 			"1st place Engineering Capstone project at The University of Texas at Dallas",
 			"Developed a remote research platform for Spark Biomedical, accelerating clinical trials and data collection for their neuro-stimulation device, and enabling secure remote access to medical technology",
+			"CES 2026 Finalist for Best Wellness Tech",
 		),
 	),
 )
@@ -238,5 +239,36 @@
 	let page-count = counter(page).final().first()
 	if page-count > 1 {
 		panic("Document exceeds one page! Current page count: " + str(page-count))
+	}
+
+	let bullet-ends-with-period(bullet) = {
+		let trimmed = bullet.trim()
+		trimmed != "" and trimmed.ends-with(".")
+	}
+
+	for entry in experience_data {
+		for bullet in entry.bullets {
+			if bullet-ends-with-period(bullet) {
+				panic(
+					"Bullet ends with a period (Experience: "
+						+ entry.org
+						+ ") -> "
+						+ bullet,
+				)
+			}
+		}
+	}
+
+	for project in projects_data {
+		for bullet in project.bullets {
+			if bullet-ends-with-period(bullet) {
+				panic(
+					"Bullet ends with a period (Project: "
+						+ project.name
+						+ ") -> "
+						+ bullet,
+				)
+			}
+		}
 	}
 }
