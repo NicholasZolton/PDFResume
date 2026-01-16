@@ -6,6 +6,12 @@
 *.toc
 *.out 
 
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+tools/out/
+
 # Devenv
 .devenv*
 devenv.local.nix
