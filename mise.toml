@@ -2,7 +2,11 @@
 typst = "latest"
 
 [tasks.watch]
-run = "typst watch Nicholas_Zolton_Resume.typ Nicholas_Zolton_Resume.pdf"
+run = '''
+typst watch $(find . -maxdepth 1 -name "*.typ" -print -quit) $(find . -maxdepth 1 -name "*.typ" -print -quit | sed "s/\.typ$/.pdf/")
+'''
 
 [tasks.compile]
-run = "typst compile Nicholas_Zolton_Resume.typ Nicholas_Zolton_Resume.pdf"
+run = '''
+typst compile $(find . -maxdepth 1 -name "*.typ" -print -quit) $(find . -maxdepth 1 -name "*.typ" -print -quit | sed "s/\.typ$/.pdf/")
+'''
