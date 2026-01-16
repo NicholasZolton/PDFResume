@@ -111,7 +111,7 @@
 
 #let achievements_data = (
 	("1st Place Gemini x Pipecat ($100,000 prize)", "Oct 2025"),
-	("Google Developer Student Club President", "2023 -- 2024"),
+	("Google Developer Student Club President", "2023 - 2024"),
 	("Hackathon Awards: HackUTA (2nd), Axxess (1st), HackRICE (2nd), HackPrinceton (Finalist)", "2023"),
 )
 

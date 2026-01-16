@@ -1,5 +1,6 @@
 [tools]
 typst = "latest"
+tinymist = "latest"
 
 [tasks.watch]
 run = '''
