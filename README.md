@@ -9,8 +9,9 @@ This repo now includes a Typst source resume.
 
 ### Install Typst
 
-- Windows (Chocolatey): `choco install typst`
-- Other platforms: see https://typst.app
+- Windows (Chocolatey): `choco install typst` or `winget install typst`
+- MacOS: `brew install typst`
+- Other platforms: see https://typst.app/open-source/#download
 
 # Credits
 
