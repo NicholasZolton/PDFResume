@@ -45,6 +45,7 @@
 	row-gutter: 4pt,
 	for item in skills_data {
 		[#text(size: 9pt)[#strong[#item.label]: #item.value]]
+		linebreak()
 	},
 )
 
