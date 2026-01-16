@@ -1,6 +1,7 @@
 [tools]
 typst = "latest"
 tinymist = "latest"
+typstyle = "latest"
 
 [tasks.watch]
 run = '''
@@ -10,6 +11,11 @@ typst watch $(find . -maxdepth 1 -name "*.typ" -print -quit) $(find . -maxdepth 
 [tasks.compile]
 run = '''
 typst compile $(find . -maxdepth 1 -name "*.typ" -print -quit) $(find . -maxdepth 1 -name "*.typ" -print -quit | sed "s/\.typ$/.pdf/")
+'''
+
+[tasks.format]
+run = '''
+typstyle -i $(find . -maxdepth 1 -name "*.typ" -print -quit)
 '''
 
 [tasks.lsp]

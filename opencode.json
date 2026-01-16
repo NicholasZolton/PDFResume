@@ -14,5 +14,17 @@
                 ".typ"
             ]
         }
+    },
+    "formatter": {
+        "typstyle": {
+            "command": [
+                "typstyle",
+                "-i",
+                "$FILE"
+            ],
+            "extensions": [
+                ".typ"
+            ]
+        }
     }
 }
